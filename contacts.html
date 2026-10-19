@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact information for Riverbend Yoga Studio.">
+    <title>Contact | Riverbend Yoga Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="yoga-logo_c.png" alt="Riverbend Yoga Studio logo" width="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contacts.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have a question or want to sign up for a class? Give us a call or send us an email.</p>
+
+        <section>
+            <h2>Get in Touch</h2>
+            <p><strong>Phone:</strong> <a href="tel:+18285550123">(828) 555-0123</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@riverbendyoga.com">info@riverbendyoga.com</a></p>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="mailto:info@riverbendyoga.com" method="post" enctype="text/plain">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Riverbend Yoga Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
